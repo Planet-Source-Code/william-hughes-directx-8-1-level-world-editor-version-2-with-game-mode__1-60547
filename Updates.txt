@@ -1,0 +1,291 @@
+All updates are NarutoWeb Editor updates.
+
+05/12/05
+-Added ability to resize window.
+-Added ability to move threw map with arrow keys.
+
+04/22/05
+-Made walking slower in game mode.
+
+04/21/05
+-Changed map storing from 3d dimensional array to 2d for storing tiles.
+
+
+04/01/05 - 053.ZIP
+-Fixed saving bug
+-Fixed render bug causing weird rendering with incorrect variable.
+-Fixed delete til bug.
+-Fixed Sector bug.
+-Added menu's created at run time for Clearing layers.
+
+03/31/05
+-Fixed loading bug.
+-Fixed saving bug saving extra tile with mmorpg maps.
+-Fixed saving bug with saving battle scene maps.
+-Added tile collision in game mode.
+-Added special rendering in game mode to render objects above and below character so character can hide behind objects.
+-Added character walking in game mode.
+-Made editor clean up all textures when closing.
+
+03/29/05
+-Sptimized rendering by changing to matrix style co-ords. Changed Saving, Tile Delete, Place Tile subs.
+-Added ability to move tiles from 1 layer to another.
+
+
+03/26/05
+-Fixed tile loading error which randomly occurs due to ununique keys in nodes.
+
+03/25/05
+-Made Loading Maps Faster with new PlaceTile Sub that doesnt check of tile exist in spot befor placing
+-Made AutoGen/AutoFill faster with OverWrite feature that doesnt check if tile is in spot befor placing.
+-Changed Delete Tile to take a Layer paramater instead of checking the layer inside the sub.
+
+
+03/22-05
+-Fixed auto gen/Auto Fill when Xpixeldiff or yPixeldiff was greater then 0. it would place extra tiles depending on the PixelDiff.
+
+03/20/05
+-Added World x.y -Co-Ords
+-Added Session Time and overall time editor is used.
+
+
+03/19/05
+-Fixed bug where if main form was minimized with another form parent to it error.
+-Can now load more then 1 Sector at a time via the options form.
+-Fixed saving bug that offset co-ords by 800/640 instead of 480 pixels.
+
+03/16/05
+-Fixed problems with lagging computer if Editor is not active window with GetActiveWindow.
+
+
+03/15/05
+-Added password protection on maps
+-Fixed NPC Saving error. Saved filename instead of NPC name.
+-Added status bar with x,y tile position
+-Fixed small caption bug on monster form.
+-ReAdded Sort Top Left to Bot Right on layers 3,4,5
+
+03/14/05
+-Finished load/saving on different map types.
+-Changed MapType Sub to work with different map types
+-Editing NPC Form so users can give NPCs dialogues depending upon the mission and village.
+
+03/10/05
+-Made form so Users can no longer resize form.
+
+
+03/06/05
+-Fixed how saving/loading messed up objects.
+
+
+03/06/05
+-Added Abilty to add music files to maps.
+-Changed Saving to save different types of maps.
+-Changed Some monster propertys.
+
+02/22/05
+-Changed Saving (Saves in sectors/sections)
+-Changed loading to load sectors.
+
+
+02/15/05
+-Fixed Save Overflow error. Saving is extremely faster. 10-100x faster.
+
+02/13/05
+-Optimized Rendering on layer3 and 4
+-Added ability to minimize. altered render code to not render when minimized.
+
+
+02/12/05
+-Altered Save and Load map features to include colors.
+-Cleand up place tile sub.
+
+
+02/10/05
+-Altered frmColor to save object/tile
+-Altered picLevel mousedown subs to transfer variables to frmColor for placing tile/object.
+
+
+02/08/05
+-Altered Save sub to save map tiles/object from top left to bottom right instead of the order the tiles/objects were placed.
+
+
+02/06/05
+-Finished ability to change tile/object colors.
+-Added ability to change NPC colors.
+-Add ability to change monster colors.
+
+
+02/05/05
+-Fixed small bug during saving. Wouldnt save if layer has 1 object or tile on it.
+-Added NPC saving to Save Map function instead of saving after each NPC placed.
+-Fixed bug where if trying to palce category name on map crashes.
+-Started frmColor where user can change color of object/tile. (not renderable yet)
+-Fixed saving error on layer 4
+
+
+02/04/05 030.ZIP - Sim
+-Edited Save, load features to save triggers
+-Edited mousedown and mousemove to block placing of tiles until user sets a trigger or cancles.
+-Edited frmTriggers to hold Co-Ords and texture of tile/object that the trigger will be placed on.
+-Edited frmNPCS's to hold Co-ords and texture of NPC that the will be used.
+
+
+01/31/05
+-Fixed Delete Tile Sub
+-Right Click Object Delete working.
+-Fixed Layer4 Rendering Bug
+
+
+01/30/05
+-Updated Place Tile Sub
+-Updated MouseDown and MouseMove sub for placing tiles. (code much cleaner)
+-Creat
+e new load tile sub. Doesnt relie on a file.
+
+12/04/04
+-Fixed Loading Bug
+
+
+10/25/04
+-Changed AutoGen, AutoFill sub to work with new PlaceTile Sub
+-Fixed Load Sub
+
+
+10/24/04
+-Changed another paramater to Placetile sub
+-Change some code to work with PlaceTile
+-Added Common Dialog to Open, Save
+
+
+09/28/04
+-Fixed many bugs due to memory management code.
+-Added New autoGen and AutoFill forms to allow people to specify how many tiles to place.
+-Added progress bar to show progress of autofill and autogen.
+
+
+09/27/04
+-Opt
+imized memory management with textures.
+
+09/21/04
+-Added new saving file. .NWM. map name, pass, and description.
+-Added new Auto Fill tiles.
+-Added new AutoGenerated Tiles.
+-Started advance rendering. Rendering only whats on screen.
+
+
+09/03/04
+-Fixed few loading/saving errors.
+
+
+09/02/04
+-Fixed layered bug due to changing layers around
+-Fixed Delete Tile bug due to fact of moving all code to PlaceTile and deleteTile sub.
+
+
+09/01/04
+-Created sub to place tiles. Reduced code by half, since using same sub.
+-Started Auto Generate of tiles.
+
+
+07/11/04
+-Editing Loading (Made standard path varable)
+
+
+07/08/04
+-Editing Saving/Loading(Replaced seperator - with +)
+
+
+06/22/04
+-Editing Saving (Some grid points where decimals. So replaced . seperators with -)
+-Editing Load to work with new saved map files.
+-Editing all Vertex coding. No longer pre-set width and height. Now based on Image size.
+-All object layers are now set to work with transparent textures.
+
+
+06/21/04
+-Change mouse Texture code to set it to size of tile/object instead of basic 64/64 and to use a trans
+parency color.
+
+06/20/04
+-Fixed Loading issue (Wouldn't show layers needed)
+
+
+06/08/04
+-Added frmMapType (to choose the type of map when starting new map)
+-Added MapType Sub
+
+
+06/07/04
+-Added all save, load, and exit verifications (Don't loose unsaved work by mistake)
+-Added Arena Scripting Form.
+
+
+06/03/04
+-Added new Menu's (Scripting, Scripting->Arena: Changed and Moved Map->Scripting to Scripting->Details)
+
+
+06/02/04
+-Added new menu's (File->New, File->Load Previous 005, Map, Map->Properties, Map->Scripting) and Map Properties form
+
+
+06/01/04
+-Added .wnm file extension (automated file loaded. Registry files to enable it)
+
+
+05/05/04
+-Fixed Tileplacing Bug(Checking if a tile was allready placed was wrong)
+-Fixed Loading Bug(Stored full path of tile in TheTextures#, instead of tile path intself.)
+-Changed FPS to update faster.
+
+
+05/04/04
+-Fixed Loading error (file not found = error)
+-Fixed Saving error (When a Layer has 0 tiles = error)
+
+
+04/23/04 - 006.ZIP - Sim
+-Add MultiLayer Support
+-Had to change Loading/Saving for the multilayer Support
+-Able to load Previous version maps as layer1.
+
+		Sub's that changed
+
+	Mouse Move, MouseDown, Load, Save, Render.
+
+
+04/21/04 - 005.ZIP - Sim
+-Fixed Overflow error when placing to many tiles.
+
+
+04/16/04 - 005.ZIP - Sim
+-Optimized Loading and Saving. Loads 3X faster and File Sizes are 3X Shorter.
+
+
+
+04/15/04 - 004.ZIP - Sim
+-Added Frames Per Second (Checking On Speeds Of Direct X Rendering)
+
+
+04/09/04 - 004.ZIP - Sim
+-Singe Tile delete working/When deleting Multi Tiles. CRASHES.
+
+
+04/09/04 - 003.ZIP - Sim
+-Started delete tile on right click
+
+
+04/04/04 - 002.ZIP - Sim
+-Finished Loading
+
+
+04/03/04 - 001.ZIP - Sim
+-Added File Menu (Load,Save,Exit)
+-Saving Works
+-Started Loading Sub (Its a Mess)
+
+
+04/03/04 - 01.ZIP - Sim
+-DirectX Frame Structure Completed.
+-Able to place Tiles anywhere on selected map with No Overlapping Tiles.
