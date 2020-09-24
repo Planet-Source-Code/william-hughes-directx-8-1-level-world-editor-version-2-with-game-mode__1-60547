@@ -1,0 +1,32 @@
+Tornado Attack - Regular tornado attacks the enemie. 
+Fire Flame - One Flame of fire attacks the enemie. 
+Fire Bomb- One Ball of fire attacks the enemie. 
+Fire Bombs - Multiple Balls of fire attacks the enemie. 
+Fire Storm - Lines of Fire attacks from the sky at the enemie. 
+Fire Tornado - A tornado of fire attacks the enemie. 
+Fire Earthquake - Fire balls come from beneath the ground. 
+Fire Clone - A clone that when hits exploeds. 
+Fire meteor - A big fire ball falls from the sky. 
+Ice Strike - One ice line attacks the enemie. 
+Ice Ball - One ball of ice attacks the enemie. 
+Ice Balls - Multiple Balls of ice attacks the enemie. 
+Ice Storm - Lines of Ice attacks the enemie from the sky. 
+Ice Tornado - A tornado full of sharp ice shards attacks the enemie. 
+Ice Earthquake - Ice attacks the enemie from beneath the ground. 
+Ice Freeze - ice attack that freezes the enemy for x seconds. 
+Ice Meteor - big ball of liquid ice falls from the sky. 
+Lightning Strike - Lightning comes from user and attacks the enemie. 
+Lightning Ball - A Ball of lightning attacks the enemie 
+Lighting Balls - Multiple balls of lightning attacks the enemie. 
+Lightning Storm - Lightning strikes down from the sky at the enemie. 
+Lightning tornado - A tornado of lightning attacks the enemie. 
+Lightning Earthquake- Lighting attacks the enemie from beneath the ground. 
+Water bomb: upon impact this condensd ball of water sends everything in the area flying. 
+water meteor: Big ball of condensed water that sends everything in a large area flying. 
+wind bomb: umon impact this condensed air explodes sending out waves of sharp air that cut stuff. 
+Wind meteor: Big spere of compressed air that upon impact sends sharp air waves though out a large area. 
+miasma bomb: a ball of poisonis gass is launched and explodes releasing poisonus gas. 
+Sand/Ice/Earth Prison - Target is captured for X seconds, broken if attacked 
+Water/Fire/Lightning Stream - X number of hits to target...?must be near a body of water/something on fire? 
+fire whirl: similar to kaiten... exept with fire. 
+Flash Attack - Turns the screen into a flash allowing the enemy to retreat.
